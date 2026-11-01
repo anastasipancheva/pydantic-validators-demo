@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Demo: корректная заявка (ok)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "demo.main",
+      "args": ["ok"],
+      "justMyCode": false,
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Demo: ошибка (error)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "demo.main",
+      "args": ["error"],
+      "justMyCode": false,
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Demo: сборка схемы (schema)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "demo.main",
+      "args": ["schema"],
+      "justMyCode": false,
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Эксперименты",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "demo.experiments",
+      "justMyCode": false,
+      "console": "integratedTerminal"
+    }
+  ]
+}
